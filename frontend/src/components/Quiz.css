@@ -1,0 +1,51 @@
+.mainPage {
+    height: 100vh;
+    padding-top: 3.5rem;
+    background: #016170;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.QuizBlock {
+    height: 70vh;
+    width: 70vw;
+    padding: 2rem;
+    background-color: white;
+    border-radius: 5px;
+    transition: all 0.5s;
+}
+
+.QuizBlock:hover {
+    box-shadow: 0 0 5px rgba(32, 6, 66, 0.26);
+    transform: translateY(-1vmax);
+}
+
+.answerBlock {
+    padding-top: 0.5rem;
+}
+
+.QuizBlock>button {
+    width: 30%;
+    height: 3rem;
+    background-color: #0bad9a;
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 1rem;
+    float: left;
+}
+
+.complete {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.message {
+    padding-top: 1rem;
+    padding-left: 2rem;
+}

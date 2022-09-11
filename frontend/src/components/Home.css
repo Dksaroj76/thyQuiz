@@ -1,0 +1,19 @@
+.home {
+    min-height: 100vh;
+    padding-top: 3.5rem;
+    background: #016170;
+}
+
+.center {
+    padding: 1.5rem;
+    color: white;
+}
+
+.subjectCardContainer {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+a:active {
+    text-decoration: overline;
+}

@@ -1,0 +1,34 @@
+.subjectCard {
+    background: white;
+    height: 250px;
+    width: 200px;
+    margin: 2rem;
+    border-radius: 6px;
+    transition: all 0.5s;
+}
+
+.subjectCard:hover {
+    box-shadow: 0 0 5px rgba(32, 6, 66, 0.26);
+    transform: translateY(-1vmax);
+}
+
+.imageSection {
+    height: 200px;
+}
+
+.imageSection>img {
+    width: 200px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.subjectNameSection {
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+}
